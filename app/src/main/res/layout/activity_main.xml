@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="600dp"
         android:layout_weight="7"
-        android:layout_marginBottom="50dp"/>
+        />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -24,21 +24,21 @@
         android:layout_weight="1"
         android:layout_width="wrap_content"
         android:text="AÑADIR"
-        android:layout_height="50dp">
+        android:layout_height="wrap_content">
     </Button>
     <Button
         android:id="@+id/button2"
         android:layout_weight="1"
         android:layout_width="wrap_content"
         android:text="ELIMINAR"
-        android:layout_height="50dp">
+        android:layout_height="wrap_content">
     </Button>
     <Button
         android:id="@+id/button3"
         android:layout_weight="1"
         android:layout_width="wrap_content"
         android:text="MODIFICAR"
-        android:layout_height="50dp">
+        android:layout_height="wrap_content">
     </Button>
     </LinearLayout>
 </LinearLayout>
